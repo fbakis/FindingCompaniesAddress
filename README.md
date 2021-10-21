@@ -1,2 +1,3 @@
 FindingCompaniesAddress
 =======================
+BigData&Hadoop. The project involved cross referencing the Common Crawl database with UK company information from Companies House to produce an index of UK company web sites. The Companies House information is freely available, but does not include web site information. The project needs to search through the Common Crawl database to find likely matches to the Company House information that could be company web sites and then filter to produce an acceptably reliable index from official Company Number to web site URL. To do this project It has been using Amazon EMR and S3 to process and analyze the data by doing repeated map-reduce java codes.  
